@@ -36,3 +36,6 @@ class HomePage(models.Model):
 class Test(models.Model):
     "Generated Model"
     hghg = models.BigIntegerField()
+    hgfhgfh = models.GenericIPAddressField(
+        protocol="both", unpack_ipv4=True, null=True, blank=True,
+    )
